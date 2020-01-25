@@ -44,6 +44,11 @@
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-react": "^7.18.0"
+    "eslint-plugin-react": "^7.18.0",
+    "stylelint": "^13.0.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-webpack-plugin": "^1.2.1"
   }
 }
