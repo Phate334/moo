@@ -1,0 +1,117 @@
+.statistic-card {
+  padding: 20px 24px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.statistic-card__avatar-wrapper {
+  float: left;
+  margin-top: 3px;
+  margin-right: 20px;
+}
+
+.statistic-card__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.statistic-card__topTag {
+  width: 100%;
+  height: 4px;
+}
+
+.statistic-card__title {
+  margin-bottom: 4px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.statistic-card__number {
+  margin-right: 30px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 30px;
+}
+
+.statistic-card__percentage {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+}
+
+.statistic-card__title-wrapper__title {
+  padding: 4px 6px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    -webkit-animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*# sourceMappingURL=main.cb07df33.chunk.css.map*/
