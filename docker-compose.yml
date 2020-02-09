@@ -1,0 +1,17 @@
+version: '3'
+services:
+  db:
+    image: postgres:12.1-alpine
+    ports: 
+      - '5432:5432'
+    env_file: 
+      - server/db.env
+  app:
+    build: ./server
+    ports:
+      - '80:8888'
+    environment:
+      - server/app.env
+      - server/db.env
+    depends_on:
+      - db
